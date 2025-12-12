@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -18,7 +19,17 @@ namespace PraetorEngine
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            // Run ECS tests
+            try
+            {
+                Core.ECS.ECSTest.RunAllTests();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"ECS Test Failed: {ex.Message}");
+                Console.WriteLine(ex.StackTrace);
+                Exit();
+            }
 
             base.Initialize();
         }

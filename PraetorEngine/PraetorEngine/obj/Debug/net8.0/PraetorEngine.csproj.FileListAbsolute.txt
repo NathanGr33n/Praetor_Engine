@@ -30,3 +30,4 @@ C:\Users\GR3YW\GIT\Praetor_Engine\PraetorEngine\PraetorEngine\obj\Debug\net8.0\r
 C:\Users\GR3YW\GIT\Praetor_Engine\PraetorEngine\PraetorEngine\obj\Debug\net8.0\PraetorEngine.pdb
 C:\Users\GR3YW\GIT\Praetor_Engine\PraetorEngine\PraetorEngine\obj\Debug\net8.0\PraetorEngine.genruntimeconfig.cache
 C:\Users\GR3YW\GIT\Praetor_Engine\PraetorEngine\PraetorEngine\obj\Debug\net8.0\ref\PraetorEngine.dll
+C:\Users\GR3YW\GIT\Praetor_Engine\PraetorEngine\PraetorEngine\bin\Debug\net8.0\MonoGame.Extended.dll
