@@ -1,0 +1,10 @@
+=== Starting Rendering Tests ===
+
+Test: Camera2D
+  ✓ Camera2D works correctly
+
+Test: SmoothCamera2D
+  ✓ SmoothCamera2D works correctly
+
+
+=== All Rendering Tests Passed ===
