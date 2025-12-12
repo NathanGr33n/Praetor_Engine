@@ -16,11 +16,11 @@ Test: Security and Edge Cases
   ✓ Security and edge cases handled correctly
 
 Test: Performance Benchmarks
-  Object Pool (10000 iterations): Allocated: 11.97 KB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 1ms
+  Object Pool (10000 iterations): Allocated: 11.97 KB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 0ms
   Direct Allocation (10000 iterations): Allocated: 715.97 KB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 0ms
   Allocation reduction: 98.3%
   Pooled Array (10000 iterations): Allocated: 16.06 KB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 0ms
-  Direct Array Allocation (10000 iterations): Allocated: 4.07 MB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 2ms
+  Direct Array Allocation (10000 iterations): Allocated: 4.07 MB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 1ms
   ✓ Performance benchmarks completed
 
 

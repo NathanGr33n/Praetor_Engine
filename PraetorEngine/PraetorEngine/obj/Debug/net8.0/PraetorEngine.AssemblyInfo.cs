@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PraetorEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3b988cd43acd971619c1816d24016110e461496")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a1d65890097822e6d9d606e86e90cb54daafd11")]
 [assembly: System.Reflection.AssemblyProductAttribute("PraetorEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PraetorEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
