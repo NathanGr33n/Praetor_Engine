@@ -23,10 +23,11 @@ namespace PraetorEngine
             try
             {
                 Core.ECS.ECSTest.RunAllTests();
+                Core.Memory.MemoryTest.RunAllTests();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"ECS Test Failed: {ex.Message}");
+                Console.WriteLine($"Test Failed: {ex.Message}");
                 Console.WriteLine(ex.StackTrace);
                 Exit();
             }
