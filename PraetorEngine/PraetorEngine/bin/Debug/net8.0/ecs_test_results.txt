@@ -1,0 +1,26 @@
+=== Starting ECS Tests ===
+
+Test: Entity Creation and Destruction
+  ✓ Entity creation and destruction works correctly
+
+Test: Component Add/Remove
+  ✓ Component add/remove works correctly
+
+Test: Entity Generation (stale references)
+  ✓ Entity generation prevents stale references
+
+Test: Component Retrieval
+  ✓ Component retrieval and modification works correctly
+
+Test: Edge Cases and Security
+  ✓ Edge cases handled correctly
+
+Test: Performance Benchmark
+  Created 10000 entities in 0ms
+  Added components to 10000 entities in 3ms
+  Iterated and modified 10000 components in 1ms
+  Destroyed 10000 entities in 11ms
+  ✓ Performance test completed
+
+
+=== All ECS Tests Passed ===
