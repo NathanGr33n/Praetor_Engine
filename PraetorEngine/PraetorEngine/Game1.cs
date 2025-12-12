@@ -19,13 +19,17 @@ namespace PraetorEngine
 
         protected override void Initialize()
         {
-            // Run all tests and demo
+            // Run all tests and demos
             try
             {
+                // Phase 1 tests and demo
                 Core.ECS.ECSTest.RunAllTests();
                 Core.Memory.MemoryTest.RunAllTests();
                 Core.Rendering.RenderingTest.RunAllTests(GraphicsDevice);
                 Phase1Demo.RunDemo(GraphicsDevice);
+                
+                // Phase 2 demo
+                Phase2Demo.RunDemo(GraphicsDevice);
             }
             catch (Exception ex)
             {
