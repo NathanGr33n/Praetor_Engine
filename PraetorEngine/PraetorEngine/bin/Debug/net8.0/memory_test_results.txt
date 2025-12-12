@@ -20,7 +20,7 @@ Test: Performance Benchmarks
   Direct Allocation (10000 iterations): Allocated: 715.97 KB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 0ms
   Allocation reduction: 98.3%
   Pooled Array (10000 iterations): Allocated: 16.06 KB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 0ms
-  Direct Array Allocation (10000 iterations): Allocated: 4.07 MB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 1ms
+  Direct Array Allocation (10000 iterations): Allocated: 4.07 MB, GC: Gen0=0 Gen1=0 Gen2=0, Time: 3ms
   ✓ Performance benchmarks completed
 
 

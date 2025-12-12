@@ -19,16 +19,17 @@ namespace PraetorEngine
 
         protected override void Initialize()
         {
-            // Run all tests
+            // Run all tests and demo
             try
             {
                 Core.ECS.ECSTest.RunAllTests();
                 Core.Memory.MemoryTest.RunAllTests();
                 Core.Rendering.RenderingTest.RunAllTests(GraphicsDevice);
+                Phase1Demo.RunDemo(GraphicsDevice);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Test Failed: {ex.Message}");
+                Console.WriteLine($"Test/Demo Failed: {ex.Message}");
                 Console.WriteLine(ex.StackTrace);
                 Exit();
             }
